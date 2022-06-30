@@ -4,20 +4,18 @@ import { HeroeComponent } from './heroe/heroe.component';
 import { ListadoComponent } from './listado/listado.component';
 
 @NgModule({
-    declarations: [
+
+    declarations:[
         HeroeComponent,
-        ListadoComponent,
+        ListadoComponent
     ],
-
     exports: [
-        ListadoComponent,
+        ListadoComponent
     ],
-
     imports: [
-        CommonModule,
+        CommonModule
     ]
+
 })
 
-export class HeroesModule {
-
-}
+export class HeroesModule {}
